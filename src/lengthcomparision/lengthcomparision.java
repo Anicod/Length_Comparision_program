@@ -30,6 +30,11 @@ public class lengthcomparision {
             System.out.println("The Length of the Line 1 : " + lineDistance1);
             System.out.println("The Length of the Line 2 : " + lineDistance2);
 
+                Double line1 = lineDistance1;
+                Double line2 = lineDistance2;
+                if(line1.equals(line2)) {
+                    System.out.println("line1 and line2 are equal");
+                }
 
 
         }
