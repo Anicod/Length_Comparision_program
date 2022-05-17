@@ -35,7 +35,8 @@ public class lengthcomparision {
                 if(line1.equals(line2)) {
                     System.out.println("line1 and line2 are equal");
                 }
-
+                else
+                    System.out.println("line1 and line2 are not equal");
 
         }
     }
