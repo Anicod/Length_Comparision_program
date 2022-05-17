@@ -6,8 +6,8 @@ public class lengthcomparision {
         public static void main(String[] args) {
             System.out.println("welcome to line comparision computation");
             int x1, x2, y1, y2, a1, a2, b1, b2;
-            double lineDistance1;
-            double lineDistance2;
+            Double lineDistance1;
+            Double lineDistance2;
             Scanner sc = new Scanner(System.in);
             System.out.println("Enter x1 point for line 1 : ");
             x1 = sc.nextInt();
@@ -30,14 +30,13 @@ public class lengthcomparision {
             System.out.println("The Length of the Line 1 : " + lineDistance1);
             System.out.println("The Length of the Line 2 : " + lineDistance2);
 
-                Double line1 = lineDistance1;
-                Double line2 = lineDistance2;
-                if(line1.equals(line2)) {
-                    System.out.println("line1 and line2 are equal");
+                //Double line1 = lineDistance1;
+                //Double line2 = lineDistance2;
+                if(lineDistance1.equals(lineDistance2)) {
+                    System.out.println("line and line2 are equal");
                 }
                 else
                     System.out.println("line1 and line2 are not equal");
-
         }
     }
 
